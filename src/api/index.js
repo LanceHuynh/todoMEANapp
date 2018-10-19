@@ -1,6 +1,6 @@
 var express = require('express');
 var todos = require('../../mock/todos');
-//var Todo = require('../models/todo');
+// var Todo = require('../models/todo');
 var router = express.Router();
 
 router.get('/todos', function(req, res ) {
@@ -10,7 +10,7 @@ router.get('/todos', function(req, res ) {
 //    }
   res.json({todos: todos});
 });
-//});
+// });
 
 // TODO: add Post
 
