@@ -3,7 +3,7 @@ var router = require('./api/index');
 
 var app = express();
 
-require('./database');
+// require('./database');
 
 app.use('/', express.static('public'));
 
